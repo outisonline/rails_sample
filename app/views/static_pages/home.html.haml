@@ -8,6 +8,9 @@
     
   = link_to signup_path, class: "btn btn-lg btn-primary" do
     = "Sign up now!"
+    
+  = link_to destroy_user_session_path, method: :delete do
+    = "Sign out"
   
   = link_to image_tag("rails.png", alt: "Rails logo"),'http://rubyonrails.org/' 
   
